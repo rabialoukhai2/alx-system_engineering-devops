@@ -13,7 +13,7 @@
 12- file 
 13- ln -s /bin/ls __ls__
 14- cp -n ./*.html ../
-15- mv -t /tmp/u *[A-Z]*
+15- mv -t /tmp/u *[[:upper:]]*
 16- rm -f *$~
 17- mkdir welcome/ to/ schcool/
 18- ls -a1 | sed 's/\./\/\//g;s/[^0-9a-z]/ /g;/^$/d;s/,$/\n/'
