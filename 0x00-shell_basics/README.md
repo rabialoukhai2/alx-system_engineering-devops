@@ -1,6 +1,6 @@
-pwd: current position
-ls : list of dir
-cd ~ : go to the user home
-ls -l : long format list
-ls -a: list hidden file
-ls -la: for all 
+0- pwd: current position
+1- ls : list of dir
+2- cd ~ : go to the user home
+3- ls -l : long format list
+4- ls -a: list hidden file
+5- ls -la: for all 
