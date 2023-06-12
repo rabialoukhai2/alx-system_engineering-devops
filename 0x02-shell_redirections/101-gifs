@@ -1,0 +1,2 @@
+#!/bin/bash
+find . -type f -name ".gif" -exec sh -c 'echo "${0%.}"' {} ; | LC_COLLATE=C sort -f -k1,1n | sed 's!.*/!!' | tr '[:upper:]' '[:lower:]'

@@ -1,0 +1,3 @@
+#!/bin/bash
+echo "${cat|tr -s ' '|cut -c1-1}"
+
